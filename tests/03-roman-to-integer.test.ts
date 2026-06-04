@@ -1,4 +1,5 @@
-﻿import romanToInt from '../src/03-roman-to-integer';
+﻿import { describe, expect, test } from 'vitest';
+import romanToInt from '../src/03-roman-to-integer';
 
 describe('03 - Roman to Integer', () => {
   test('Example 1: "III" should return 3', () => {

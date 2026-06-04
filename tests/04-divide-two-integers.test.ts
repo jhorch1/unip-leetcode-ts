@@ -1,4 +1,5 @@
-﻿import divide from '../src/04-divide-two-integers';
+﻿import { describe, expect, test } from 'vitest';
+import divide from '../src/04-divide-two-integers';
 
 describe('04 - Divide Two Integers', () => {
   test('Example 1: dividend = 10, divisor = 3 should return 3', () => {

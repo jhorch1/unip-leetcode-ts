@@ -1,4 +1,5 @@
-﻿import reverse from '../src/02-reverse-integer';
+﻿import { describe, expect, test } from 'vitest';
+import reverse from '../src/02-reverse-integer';
 
 describe('02 - Reverse Integer', () => {
   test('Example 1: x = 123 should return 321', () => {

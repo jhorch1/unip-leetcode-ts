@@ -1,4 +1,5 @@
-﻿import longestPalindrome from '../src/01-longest-palindromic-substring';
+﻿import { describe, expect, test } from 'vitest';
+import longestPalindrome from '../src/01-longest-palindromic-substring';
 
 describe('01 - Longest Palindromic Substring', () => {
   test('Example 1: "babad" should return a valid palindrome', () => {
